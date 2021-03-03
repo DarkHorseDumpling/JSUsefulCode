@@ -1,0 +1,14 @@
+for(let num=1; num<=10; num++) {
+    console.log(num);
+}
+
+for(let i = 1; i < 21; i+=2) {
+    console.log(i);
+}
+
+for(let i = 1; i <= 10; i++) {
+    console.log(`i is: ${i}`);
+    for(let j = 1; j < 4; j++) {
+        console.log(`     j is: ${j}`);
+    }
+}
